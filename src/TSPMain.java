@@ -58,8 +58,10 @@ public class TSPMain {
 	}
 
 	public static void main(String[] args) {
+		
 		ArrayList<Node> nodeArr =readFile("resources/train1.txt");
 		NearNeighbour(nodeArr);
+		
 //		for(Node e : nodeArr) {
 //			System.out.println(e.toString());
 //		}

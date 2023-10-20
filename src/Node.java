@@ -5,7 +5,7 @@ public class Node {
 	int Y;
 	
 	public Node(int id, int X, int Y) {
-		this.id = id;
+		this.id = id - 1;
 		this.X = X;
 		this.Y = Y;
 	}
